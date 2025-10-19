@@ -1,0 +1,28 @@
+{
+  "name": "discord-translator-bot",
+  "version": "2.4.0",
+  "description": "Bot Discord multilíngue que traduz mensagens usando reações de emoji (TypeScript)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "npm run build && node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "translator",
+    "discord.js",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.8.1",
+    "@vitalets/google-translate-api": "^9.2.1",
+    "discord.js": "^14.23.2",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.9.3"
+  }
+}
